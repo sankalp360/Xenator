@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Xenator/static/css/main.764853a8.chunk.css",
+    "main.js": "/Xenator/static/js/main.031eac04.chunk.js",
+    "main.js.map": "/Xenator/static/js/main.031eac04.chunk.js.map",
+    "runtime-main.js": "/Xenator/static/js/runtime-main.fe41893b.js",
+    "runtime-main.js.map": "/Xenator/static/js/runtime-main.fe41893b.js.map",
+    "static/js/2.4b6ab855.chunk.js": "/Xenator/static/js/2.4b6ab855.chunk.js",
+    "static/js/2.4b6ab855.chunk.js.map": "/Xenator/static/js/2.4b6ab855.chunk.js.map",
+    "static/js/3.46016998.chunk.js": "/Xenator/static/js/3.46016998.chunk.js",
+    "static/js/3.46016998.chunk.js.map": "/Xenator/static/js/3.46016998.chunk.js.map",
+    "index.html": "/Xenator/index.html",
+    "static/css/main.764853a8.chunk.css.map": "/Xenator/static/css/main.764853a8.chunk.css.map",
+    "static/js/2.4b6ab855.chunk.js.LICENSE.txt": "/Xenator/static/js/2.4b6ab855.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/Xenator/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fe41893b.js",
+    "static/js/2.4b6ab855.chunk.js",
+    "static/css/main.764853a8.chunk.css",
+    "static/js/main.031eac04.chunk.js"
+  ]
+}
