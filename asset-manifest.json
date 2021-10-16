@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Xenator/static/css/main.764853a8.chunk.css",
-    "main.js": "/Xenator/static/js/main.031eac04.chunk.js",
-    "main.js.map": "/Xenator/static/js/main.031eac04.chunk.js.map",
+    "main.js": "/Xenator/static/js/main.b23cd5cf.chunk.js",
+    "main.js.map": "/Xenator/static/js/main.b23cd5cf.chunk.js.map",
     "runtime-main.js": "/Xenator/static/js/runtime-main.fe41893b.js",
     "runtime-main.js.map": "/Xenator/static/js/runtime-main.fe41893b.js.map",
     "static/js/2.4b6ab855.chunk.js": "/Xenator/static/js/2.4b6ab855.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.fe41893b.js",
     "static/js/2.4b6ab855.chunk.js",
     "static/css/main.764853a8.chunk.css",
-    "static/js/main.031eac04.chunk.js"
+    "static/js/main.b23cd5cf.chunk.js"
   ]
 }
