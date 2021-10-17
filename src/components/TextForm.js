@@ -90,24 +90,24 @@ export default function TextForm(props) {
     return (
         <>
             <div className='container my-2' style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
-                <h1>{props.heading}</h1>
-                <div className="mb-3">
+                <h2 className="mb-3">{props.heading}</h2>
+                <div className="mb-2">
                     <textarea className="form-control" id="myBox" rows="8" value={text} style={{ backgroundColor: props.mode === 'dark' ? '#13466E' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }} onChange={handleOnChange} ></textarea>
                 </div>
                 <div>
-                    <button className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to Upper Case</button>
-                    <button className="btn btn-primary mx-1 my-1" onClick={handleLowClick}>Convert to Lower Case</button>
-                    <button className="btn btn-primary mx-1 my-1" onClick={handleCamelClick}>Convert to Camel Case</button>
-                    <button className="btn btn-primary mx-1 my-1" onClick={handleCopy}>Copy Text</button>
-                    <button className="btn btn-primary mx-1 my-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
-                    <button className="btn btn-primary mx-1 my-1" onClick={handleCTClick}>Clear text</button>
+                    <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleUpClick}>Convert to Upper Case</button>
+                    <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleLowClick}>Convert to Lower Case</button>
+                    <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleCamelClick}>Convert to Camel Case</button>
+                    <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleCopy}>Copy Text</button>
+                    <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleExtraSpaces}>Remove Extra Spaces</button>
+                    <button disabled={text.length === 0} className="btn btn-primary mx-1 my-1" onClick={handleCTClick}>Clear text</button>
                 </div>
                 {/* <h1></h1>
                 <button className="btn btn-primary mx-1" onClick={handleConHClick}>Convert English to Hindi</button>
                 <button className="btn btn-primary mx-1" onClick={handleConHClick}>Convert Hindi to English</button> */}
 
             </div>
-            <div className="container my-5" style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
+            <div className="container my-4" style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
                 <h2>Your text summary</h2>
                 <p>{text.split(" ").filter((element) => {
                     return (element.length !== 0);
@@ -115,9 +115,9 @@ export default function TextForm(props) {
                 <p>{timeToRead} Minutes time to read text</p>
 
             </div>
-            <div className="container my-5" style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
+            <div className="container my-3" style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
                 <h2>Preview</h2>
-                <p>{text.length > 0 ? text : "Enter Something in Text Box to Preview"}</p>
+                <p>{text.length > 0 ? text : "Nothing to Preview"}</p>
             </div>
         </>
     )

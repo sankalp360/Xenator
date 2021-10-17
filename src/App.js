@@ -43,19 +43,19 @@ function App() {
   return (
     <>
       <Router>
-      <Navbar title="Xenator" aboutText="About" mode={mode} toggleMode={toggleMode} />
-      <Alert alert={alert} />
-      <div className="container my-5">
-        <Switch>
+        <Navbar title="Xenator" aboutText="About" mode={mode} toggleMode={toggleMode} />
+        <Alert alert={alert} />
+        <div className="container my-5">
+          <Switch>
             <Route exact path="/about">
               <About mode={mode} />
             </Route>
             <Route exact path="/">
-        <TextForm showAlert={showAlert} heading="Enter the text below to analyze:" mode={mode} />
-        </Route>
+              <TextForm showAlert={showAlert} heading="Try Xenator - Word Counter, Character Counter, Remove Extra Spaces:" mode={mode} />
+            </Route>
           </Switch>
 
-      </div>
+        </div>
       </Router>
     </>
   );
