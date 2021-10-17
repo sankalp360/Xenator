@@ -64,22 +64,22 @@ export default function TextForm(props) {
         props.showAlert('Extra Spaces Removed', 'success');
 
     }
-    const handleConHClick = () => {
-        // console.log('Uppercase was clciked');
-        // let options = {
-        //     sourceLanguage:
-        //         google.elements.transliteration.LanguageCode.ENGLISH,
-        //     destinationLanguage:
-        //         [google.elements.transliteration.LanguageCode.HINDI],
-        //     shortcutKey: 'ctrl+g',
-        //     transliterationEnabled: true
-        // };
+    // const handleConHClick = () => {
+    // console.log('Uppercase was clciked');
+    // let options = {
+    //     sourceLanguage:
+    //         google.elements.transliteration.LanguageCode.ENGLISH,
+    //     destinationLanguage:
+    //         [google.elements.transliteration.LanguageCode.HINDI],
+    //     shortcutKey: 'ctrl+g',
+    //     transliterationEnabled: true
+    // };
 
-        // let control = new
-        //     google.elements.transliteration.TransliterationControl(options);
-        // control.makeTransliteratable(["txtEnglish"]);
-        // setText(control);
-    }
+    // let control = new
+    //     google.elements.transliteration.TransliterationControl(options);
+    // control.makeTransliteratable(["txtEnglish"]);
+    // setText(control);
+    // }
 
     const handleCTClick = () => {
         // console.log('Uppercase was clciked');
