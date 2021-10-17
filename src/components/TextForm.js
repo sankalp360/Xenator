@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import '../App.css';
 export default function TextForm(props) {
     const [text, setText] = useState('');
     let timeToRead = 0.008 * text.split(" ").filter((element) => {
